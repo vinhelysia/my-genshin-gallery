@@ -17,11 +17,12 @@ interface MusicContextType {
 const MusicContext = createContext<MusicContextType | undefined>(undefined)
 
 const playlists: Record<User, string[]> = {
-  Vinh: ["/audio/vinh/1.mp3", "/audio/vinh/2.mp3"],
-  STD: ["/audio/std/1.mp3", "/audio/std/2.mp3"],
-  Vana: ["/audio/vana/1.mp3", "/audio/vana/2.mp3"],
+  Vinh: ["/my-genshin-gallery/audio/vinh/1.mp3", "/my-genshin-gallery/audio/vinh/2.mp3"],
+  STD: ["/my-genshin-gallery/audio/std/1.mp3", "/my-genshin-gallery/audio/std/2.mp3"],
+  Vana: ["/my-genshin-gallery/audio/vana/1.mp3", "/my-genshin-gallery/audio/vana/2.mp3"],
   None: [],
 }
+
 
 export function MusicProvider({ children }: { children: ReactNode }) {
   const [currentUser, setCurrentUser] = useState<User>("None")

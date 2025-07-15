@@ -12,13 +12,30 @@ interface ImageItem {
 }
 
 const images: ImageItem[] = [
-  { src: "/images/1.png", alt: "" },
-  { src: "/images/2.png", alt: "" },
-  { src: "/images/3.png", alt: "" },
-  { src: "/images/4.png", alt: "" },
-  { src: "/images/5.png", alt: "" },
-  { src: "/images/6.png", alt: "" },
+  { src: "/my-genshin-gallery/images/1.png", alt: "" },
+  { src: "/my-genshin-gallery/images/2.png", alt: "" },
+  { src: "/my-genshin-gallery/images/3.png", alt: "" },
+  { src: "/my-genshin-gallery/images/4.png", alt: "" },
+  { src: "/my-genshin-gallery/images/5.png", alt: "" },
+  { src: "/my-genshin-gallery/images/6.png", alt: "" },
+  { src: "/my-genshin-gallery/images/7.png", alt: "" },
+  { src: "/my-genshin-gallery/images/8.png", alt: "" },
+  { src: "/my-genshin-gallery/images/9.png", alt: "" },
+  { src: "/my-genshin-gallery/images/10.png", alt: "" },
+  { src: "/my-genshin-gallery/images/11.png", alt: "" },
+  { src: "/my-genshin-gallery/images/12.png", alt: "" },
+  { src: "/my-genshin-gallery/images/13.png", alt: "" },
+  { src: "/my-genshin-gallery/images/14.png", alt: "" },
+  { src: "/my-genshin-gallery/images/15.png", alt: "" },
+  { src: "/my-genshin-gallery/images/16.png", alt: "" },
+  { src: "/my-genshin-gallery/images/17.png", alt: "" },
+  { src: "/my-genshin-gallery/images/18.png", alt: "" },
+  { src: "/my-genshin-gallery/images/19.png", alt: "" },
+  { src: "/my-genshin-gallery/images/20.png", alt: "" },
+  { src: "/my-genshin-gallery/images/21.png", alt: "" },
 ]
+
+
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<ImageItem | null>(null)
