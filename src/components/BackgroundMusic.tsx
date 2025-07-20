@@ -17,16 +17,16 @@ export const BackgroundMusic: React.FC<BackgroundMusicProps> = ({
   // Music playlists for each user (using placeholder URLs - replace with actual music files)
   const musicPlaylists = {
     Vinh: [
-      '/public/audio/vinh/1.mp3',
-      '/public/audio/vinh/2.mp3', // Placeholder - replace with actual files
+      '/my-genshin-gallery/audio/vinh/1.mp3',
+      '/my-genshin-gallery/audio/vinh/2.mp3', // Placeholder - replace with actual files
     ],
     STD: [
-      '/public/audio/std/1.mp3',
-      '/public/audio/std/2.mp3', // Placeholder - replace with actual files
+      '/my-genshin-gallery/audio/std/1.mp3',
+      '/my-genshin-gallery/audio/std/2.mp3', // Placeholder - replace with actual files
     ],
     Vana: [
-      '/public/audio/vana/1.mp3',
-      '/public/audio/vana/2.mp3', // Placeholder - replace with actual files
+      '/my-genshin-gallery/audio/vana/1.mp3',
+      '/my-genshin-gallery/audio/vana/2.mp3', // Placeholder - replace with actual files
     ],
     None: []
   };

@@ -39,7 +39,7 @@ function App() {
       <div 
         className="absolute inset-0 background-image"
         style={{
-          backgroundImage: `url('/wp10165108-genshin-impact-scenery-wallpapers (1).jpg')`,
+          backgroundImage: `url('/my-genshin-gallery/wp10165108-genshin-impact-scenery-wallpapers (1).jpg')`,
         }}
       />
       {/* Dark overlay for text readability */}
