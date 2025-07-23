@@ -53,7 +53,7 @@ export const UserSelectionModal: React.FC<UserSelectionModalProps> = ({
         </div>
 
         <div className="mt-6 text-xs text-white/60">
-          This choice will be remembered for future visits
+          Chọn i lần sau hong phải chọn lại đou
         </div>
       </div>
     </div>

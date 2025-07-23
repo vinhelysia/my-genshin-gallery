@@ -287,6 +287,91 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ onImageClick }) => {
         url: '/my-genshin-gallery/images/55.png',
         thumbnail: '/my-genshin-gallery/images/thumbnails/55.webp'
       },
+      {
+        id: '56',
+        url: '/my-genshin-gallery/images/56.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/56.webp'
+      },
+      {
+        id: '57',
+        url: '/my-genshin-gallery/images/57.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/57.webp'
+      },
+      {
+        id: '58',
+        url: '/my-genshin-gallery/images/58.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/58.webp'
+      },
+      {
+        id: '59',
+        url: '/my-genshin-gallery/images/59.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/59.webp'
+      },
+      {
+        id: '60',
+        url: '/my-genshin-gallery/images/60.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/60.webp'
+      },
+      {
+        id: '61',
+        url: '/my-genshin-gallery/images/61.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/61.webp'
+      },
+      {
+        id: '62',
+        url: '/my-genshin-gallery/images/62.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/62.webp'
+      },
+      {
+        id: '63',
+        url: '/my-genshin-gallery/images/63.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/63.webp'
+      },
+      {
+        id: '64',
+        url: '/my-genshin-gallery/images/64.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/64.webp'
+      },
+      {
+        id: '65',
+        url: '/my-genshin-gallery/images/65.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/65.webp'
+      },
+      {
+        id: '66',
+        url: '/my-genshin-gallery/images/66.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/66.webp'
+      },
+      {
+        id: '67',
+        url: '/my-genshin-gallery/images/67.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/67.webp'
+      },
+      {
+        id: '68',
+        url: '/my-genshin-gallery/images/68.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/68.webp'
+      },
+      {
+        id: '69',
+        url: '/my-genshin-gallery/images/69.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/69.webp'
+      },
+      {
+        id: '70',
+        url: '/my-genshin-gallery/images/70.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/70.webp'
+      },
+      {
+        id: '71',
+        url: '/my-genshin-gallery/images/71.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/71.webp'
+      },
+      {
+        id: '72',
+        url: '/my-genshin-gallery/images/72.png',
+        thumbnail: '/my-genshin-gallery/images/thumbnails/72.webp'
+      },
     ];
 
     setImages(genshinImages);
