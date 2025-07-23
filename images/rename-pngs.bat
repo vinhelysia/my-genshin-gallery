@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set counter=1
+set counter=56
 
 for %%f in (*.png) do (
     set "num=0!counter!"
